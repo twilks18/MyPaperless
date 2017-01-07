@@ -89,6 +89,7 @@ public class UserTest extends TestCase {
 	
 	public void testAddAndRemoveExperiment(){
 		
+		//Create experiment objects to add to ArrayList
 		Experiment e1 =  new Experiment("A1","B1","C1","D1","E1");
 		Experiment e2 =  new Experiment("A2","B2","C2","D2","E2");
 		Experiment e3 =  new Experiment("A3","B3","C3","D3","E3");
