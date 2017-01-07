@@ -108,6 +108,7 @@ public class UserTest extends TestCase {
 		assertNotSame(1,u.getExperiment().indexOf(e1));
 		assertEquals(1,u.getExperiment().indexOf(e2));
 		
+		//Determine if experiments have been removed from experiment ArrayList
 		assertEquals(3, u.getExperiment().size());
 		u.removeExperiment(e1);
 		assertEquals(2,u.getExperiment().size());
